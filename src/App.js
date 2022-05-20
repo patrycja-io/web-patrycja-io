@@ -5,8 +5,6 @@ import Navbar from './components/navBar'
 import Home from './pages/home/Home'
 import Shop from './pages/shop/Shop'
 
-
-
 import './App.css'
 
 function App() {
