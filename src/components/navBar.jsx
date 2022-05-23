@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 export default function Navbar() {
   return (
     <div>
+
     <header className="border-b border-gray-100 ">
     <div
       className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
@@ -87,6 +88,7 @@ export default function Navbar() {
       </div>
     </div>
   </header>
+  
   </div>
   );
 }

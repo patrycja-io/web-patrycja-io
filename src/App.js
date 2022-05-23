@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/home/Home'
 import Resources from './pages/resources/Resources'
+import ReactLibraires from './pages/resources/ReactLibraires'
 import Footer from './components/Footer'
 
 import './App.css'
@@ -16,6 +17,7 @@ function App() {
        <Routes>
          <Route path="/" element={<Home/>}/>
          <Route path="resources" element={<Resources/>}/>
+         <Route path="resources/reactlibraries" element={<ReactLibraires/>}/>
        </Routes>
        <Footer/>
        </BrowserRouter>
