@@ -3,7 +3,8 @@ import {BrowserRouter, Route, Routes } from 'react-router-dom'
 //page components
 import Navbar from './components/Navbar'
 import Home from './pages/home/Home'
-import Shop from './pages/shop/Shop'
+import Resources from './pages/resources/Resources'
+import Footer from './components/Footer'
 
 import './App.css'
 
@@ -14,8 +15,9 @@ function App() {
        <Navbar/>
        <Routes>
          <Route path="/" element={<Home/>}/>
-         <Route path="create" element={<Shop/>}/>
+         <Route path="resources" element={<Resources/>}/>
        </Routes>
+       <Footer/>
        </BrowserRouter>
     </div>
   );
