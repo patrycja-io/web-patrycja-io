@@ -2,20 +2,20 @@ import {Link} from "react-router-dom"
 
 export default function Resources() {
   return (
-    <section className="text-black ">
+    <section className="text-white bg-indigo-600">
       <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div className="max-w-lg mx-auto text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">
            Explore for free <br />
           </h2>
 
-          <p className="mt-4 text-gray-300">
+          <p className="mt-4 text-white">
             Choose category of your intrest.
           </p>
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 text-black">
-          <div className="p-1 shadow-xl bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 rounded-2xl">
+          <div className="p-1 shadow-xl bg-gradient-to-r from-orange-500 via-rose-600 to-indigo-600 rounded-2xl">
             <Link
               className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/20 hover:border-pink-500/20"
               to="/reactlibraries"
@@ -37,11 +37,11 @@ export default function Resources() {
                 />
               </svg>
               <h5 className="mt-2 text-xl font-bold text-black">
-                Custom Helper to Improve the Rails phone_to Helper
+                React Libraries A-Z
               </h5>
               <div className="flex items-center justify-between mt-6">
-        <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
-          Rails
+        <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-sky-600">
+          React
         </p>
         <ul className="flex space-x-1">
           <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
@@ -80,11 +80,11 @@ export default function Resources() {
               </svg>
 
               <h5 className="mt-2 text-xl font-bold text-black">
-                Custom Helper to Improve the Rails phone_to Helper
+                React Hooks A-Z
               </h5>
               <div className="flex items-center justify-between mt-6">
         <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
-          Rails
+         React
         </p>
         <ul className="flex space-x-1">
           <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
@@ -123,7 +123,7 @@ export default function Resources() {
               </svg>
 
               <h5 className="mt-2 text-xl font-bold text-black">
-                Custom Helper to Improve the Rails phone_to Helper
+                Tailwind UI - all available
               </h5>
               <div className="flex items-center justify-between mt-6">
         <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
@@ -166,11 +166,11 @@ export default function Resources() {
               </svg>
 
               <h5 className="mt-2 text-xl font-bold text-black">
-                Custom Helper to Improve the Rails phone_to Helper
+                 Cool Github Repos
               </h5>
               <div className="flex items-center justify-between mt-6">
         <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
-          Rails
+          Github
         </p>
         <ul className="flex space-x-1">
           <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
@@ -207,7 +207,7 @@ export default function Resources() {
                 />
               </svg>
               <h5 className="mt-2 text-xl font-bold text-black">
-                Custom Helper to Improve the Rails phone_to Helper
+                Roadmaps
               </h5>
               <div className="flex items-center justify-between mt-6">
         <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
@@ -250,7 +250,7 @@ export default function Resources() {
               </svg>
 
               <h5 className="mt-2 text-xl font-bold text-black">
-        Custom Helper to Improve the Rails phone_to Helper
+        React and Javascript Games
       </h5>
       <div className="flex items-center justify-between mt-6">
         <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
@@ -272,29 +272,7 @@ export default function Resources() {
           </div>
         </div>
 
-        <div className="mt-12 text-center">
-          <Link
-            className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/20 hover:border-pink-500/20"
-            to="reactlibraries"
-          >
-            <span className="text-sm font-medium"> Get Started </span>
-
-            <svg
-              className="w-5 h-5 ml-3"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
-            </svg>
-          </Link>
-        </div>
+        
       </div>
     </section>
   );

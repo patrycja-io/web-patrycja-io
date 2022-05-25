@@ -6,6 +6,8 @@ import Home from './pages/home/Home'
 import Resources from './pages/resources/Resources'
 import ReactLibraires from './pages/resources/ReactLibraires'
 import Footer from './components/Footer'
+import Collabs from './pages/collabs/Collabs'
+import AboutMe from './pages/aboutme/AboutMe'
 
 import './App.css'
 
@@ -18,6 +20,8 @@ function App() {
          <Route path="/" element={<Home/>}/>
          <Route path="resources" element={<Resources/>}/>
          <Route path="resources/reactlibraries" element={<ReactLibraires/>}/>
+         <Route path="collabs" element={<Collabs/>}/>
+         <Route path="aboutme" element={<AboutMe/>}/>
        </Routes>
        <Footer/>
        </BrowserRouter>
