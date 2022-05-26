@@ -139,9 +139,9 @@ export default function AboutMe() {
                   Make coding fun! Learn with me how to code games in pure
                   Javascript!
                 </p>
-                <a href="#" className="block font-medium text-center text-orange-500">
+                <Link to="#" className="block font-medium text-center text-orange-500">
                   Know more
-                </a>
+                </Link>
               </div>
               <img
                 src="https://tailus.io/sources/blocks/end-image/preview/images/graphic.svg"
