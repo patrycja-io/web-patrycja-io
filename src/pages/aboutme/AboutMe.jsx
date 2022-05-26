@@ -4,11 +4,11 @@ import me from "../../assets/me.png";
 export default function AboutMe() {
   return (
     <div>
-      <main class="dark:bg-gray-800 font-mono bg-white relative overflow-hidden ">
-        <div class="flex relative z-20 items-center">
-          <div class="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
-            <div class="flex flex-col">
-              <img src={me} class="rounded-full w-48 mx-auto" />
+      <main className="dark:bg-gray-800 font-mono bg-white relative overflow-hidden ">
+        <div className="flex relative z-20 items-center">
+          <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
+            <div className="flex flex-col">
+              <img src={me} alt="awatar" className="rounded-full w-48 mx-auto" />
               <div className="flex justify-center py-12 space-x-6">
                 <Link
                   className="text-pink-500 hover:text-opacity-75"
@@ -27,9 +27,9 @@ export default function AboutMe() {
             </svg>
                 </Link>
 
-                <a
+                <Link
                   className="text-gray-900 hover:text-opacity-75"
-                  href="/github"
+                  to="/github"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -46,9 +46,9 @@ export default function AboutMe() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                </a>
+                </Link>
 
-                <a
+                <Link
                   className="text-red-600 hover:text-opacity-75"
                   href="/youtube"
                   target="_blank"
@@ -63,8 +63,8 @@ export default function AboutMe() {
                   >
                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="text-indigo-600 hover:text-opacity-75"
                   href="/twitch"
                   target="_blank"
@@ -79,8 +79,8 @@ export default function AboutMe() {
                   >
                    <path d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fill-rule="evenodd" clip-rule="evenodd"/>
               </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="text-sky-600 hover:text-opacity-75"
                   href="/linkedin"
                   target="_blank"
@@ -94,18 +94,18 @@ export default function AboutMe() {
                     aria-hidden="true"
                   >
                  <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
-                </a>
+                </Link>
               </div>
 
 
              
-              <p class="text-3xl my-6 text-center dark:text-white">
+              <p className="text-3xl my-6 text-center dark:text-white">
                 Hi, I&#x27;m Patrycja 🤘
               </p>
              
             
           
-              <h2 class="max-w-3xl text-5xl md:text-2xl  mx-auto dark:text-white text-gray-800 text-center py-2">
+              <h2 className="max-w-3xl text-5xl md:text-2xl  mx-auto dark:text-white text-gray-800 text-center py-2">
                 I am software developer and UX/UI designer. <br />
                 <br />
                 I am as well  former journalist who was passionate about coding
@@ -127,67 +127,67 @@ export default function AboutMe() {
           </div>
         </div>
       </main>
-      <div class=" font-mono py-16 bg-gradient-to-t  to-white from-indigo-600">
-        <div class="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
-          <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
-            <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-              <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold  text-black text-center">
+      <div className=" font-mono py-16 bg-gradient-to-t  to-white from-indigo-600">
+        <div className="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+          <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
+            <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+              <div className="mb-12 space-y-4">
+                <h3 className="text-2xl font-semibold  text-black text-center">
                   Javascript Games
                 </h3>
-                <p class="mb-6 text-mb">
+                <p className="mb-6 text-mb">
                   Make coding fun! Learn with me how to code games in pure
                   Javascript!
                 </p>
-                <a href="#" class="block font-medium text-center text-orange-500">
+                <a href="#" className="block font-medium text-center text-orange-500">
                   Know more
                 </a>
               </div>
               <img
                 src="https://tailus.io/sources/blocks/end-image/preview/images/graphic.svg"
-                class="w-2/3 ml-auto -mb-12"
+                className="w-2/3 ml-auto -mb-12"
                 alt="illustration"
                 loading="lazy"
                 width="900"
                 height="600"
               />
             </div>
-            <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-              <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-black text-center">Youtube</h3>
-                <p class="mb-6">
+            <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+              <div className="mb-12 space-y-4">
+                <h3 className="text-2xl font-semibold text-black text-center">Youtube</h3>
+                <p className="mb-6">
                   Obcaecati, quam? Eligendi, nulla numquam natus laborum porro
                   at cum, consectetur ullam tempora ipsa iste officia sed
                   officiis! Incidunt ea animi officiis.
                 </p>
-                <a href="#" class="block font-medium text-orange-600 text-center">
+                <Link to="#" className="block font-medium text-orange-600 text-center">
                   Know more
-                </a>
+                </Link>
               </div>
               <img
                 src="https://tailus.io/sources/blocks/end-image/preview/images/ui-design.svg"
-                class="w-2/3 ml-auto"
+                className="w-2/3 ml-auto"
                 alt="illustration"
                 loading="lazy"
                 width="900"
                 height="600"
               />
             </div>
-            <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-              <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-black text-center">GitHub</h3>
-                <p class="mb-6">
+            <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+              <div className="mb-12 space-y-4">
+                <h3 className="text-2xl font-semibold text-black text-center">GitHub</h3>
+                <p className="mb-6">
                   Obcaecati, quam? Eligendi, nulla numquam natus laborum porro
                   at cum, consectetur ullam tempora ipsa iste officia sed
                   officiis! Incidunt ea animi officiis.
                 </p>
-                <a href="#" class="block font-medium text-orange-500 text-center">
+                <a href="#" className="block font-medium text-orange-500 text-center">
                   Know more
                 </a>
               </div>
               <img
                 src="https://tailus.io/sources/blocks/end-image/preview/images/ux-design.svg"
-                class="w-2/3 ml-auto "
+                className="w-2/3 ml-auto "
                 alt="illustration"
                 loading="lazy"
                 width="900"
