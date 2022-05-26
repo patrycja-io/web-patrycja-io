@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import me2 from "../assets/me2.png";
 
 export default function Navbar() {
-  return (
+  return ( 
     <div>
       <header className="border-b border-gray-100 ">
         <div className="flex items-center justify-between h-20 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
