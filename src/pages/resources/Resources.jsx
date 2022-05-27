@@ -18,7 +18,7 @@ export default function Resources() {
           <div className="p-1 shadow-xl bg-gradient-to-r from-orange-500 via-rose-600 to-indigo-600 rounded-2xl">
             <Link
               className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/20 hover:border-pink-500/20"
-              to="/reactlibraries"
+              to="reactlibraries"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Resources() {
           <div className="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl">
             <Link
               className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/20 hover:border-pink-500/20"
-              to="/reactlibraries"
+              to="reactlibraries"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ export default function Resources() {
           <div className="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl">
             <Link
               className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-              to="/reactlibraries"
+              to="reactlibraries"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ export default function Resources() {
           <div className="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl">
             <Link
               className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/20 hover:border-pink-500/20"
-              to="/reactlibraries"
+              to="reactlibraries"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@ export default function Resources() {
           <div className="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl">
             <Link
               className="block p-8 transition border bg-white sm:p-8  shadow-xl rounded-xl hover:shadow-pink-500/20 hover:border-pink-500/20"
-              to="/reactlibraries">
+              to="reactlibraries">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-10 h-10 text-pink-500"
