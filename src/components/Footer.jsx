@@ -9,10 +9,10 @@ export default function Footer (){
       <div className="flex justify-center space-x-6">
         <Link
           className="text-blue-500 hover:text-opacity-75"
-          to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
+          to=""
           target="_blank"
           rel="noopener noreferrer"
-          ariaLabel="Twitter"
+          aria-label="Twitter"
         >
           <svg
             className="w-8 h-8"
@@ -31,7 +31,7 @@ export default function Footer (){
           to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
           target="_blank"
           rel="noopener noreferrer"
-          ariaLabel="GitHub"
+          aria-label="GitHub"
         >
           <svg
             className="w-8 h-8"
@@ -52,7 +52,7 @@ export default function Footer (){
           to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
           target="_blank"
           rel="noopener noreferrer"
-          ariaLabel="Dribbble"
+          aria-label="Dribbble"
         >
           <svg
             className="w-8 h-8"
@@ -92,7 +92,7 @@ export default function Footer (){
 
         <Link
           className="hover:opacity-75"
-          to="/blog"
+          to=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -101,7 +101,7 @@ export default function Footer (){
 
         <Link
           className="hover:opacity-75"
-          to="/portfolio"
+          to=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -117,7 +117,7 @@ export default function Footer (){
 
         <Link
           className="block mt-1 text-pink-600 underline decoration-wavy decoration-pink-500 hover:opacity-75"
-          to="/external"
+          to=""
           target="_blank"
           rel="noopener noreferrer"
         >

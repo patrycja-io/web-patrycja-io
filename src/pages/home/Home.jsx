@@ -180,7 +180,7 @@ export default function Create() {
         officiis, odio voluptatibus non soluta! Quo, explicabo aspernatur!
       </p>
 
-      <Link className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" to="">
+      <Link to="" className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" >
         Get it now
 
         <svg

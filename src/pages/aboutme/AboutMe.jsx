@@ -12,10 +12,10 @@ export default function AboutMe() {
               <div className="flex justify-center py-12 space-x-6">
                 <Link
                   className="text-pink-500 hover:text-opacity-75"
-                  to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
+                  to=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  ariaLabel="instagram"
+                  aria-label="instagram"
                 >
                   <svg
                     className="w-8 h-8"
@@ -29,10 +29,10 @@ export default function AboutMe() {
 
                 <Link
                   className="text-gray-900 hover:text-opacity-75"
-                  to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
+                  to=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  ariaLabel="GitHub"
+                  aria-label="GitHub"
                 >
                   <svg
                     className="w-8 h-8"
@@ -50,10 +50,10 @@ export default function AboutMe() {
 
                 <Link
                   className="text-red-600 hover:text-opacity-75"
-                  to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
+                  to=''
                   target="_blank"
                   rel="noopener noreferrer"
-                  ariaLabel="Youtube"
+                  aria-label="Youtube"
                 >
                   <svg
                     className="w-8 h-8"
@@ -66,10 +66,10 @@ export default function AboutMe() {
                 </Link>
                 <Link
                   className="text-indigo-600 hover:text-opacity-75"
-                  to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
+                 to=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  ariaLabel="Twitch"
+                  aria-label="Twitch"
                 >
                   <svg
                     className="w-8 h-8"
@@ -85,7 +85,7 @@ export default function AboutMe() {
                   to={{ pathname: "https:/www.instagram.com/patrycjaio" }} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  ariaLabel="Linkedin"
+                  aria-label="Linkedin"
                 >
                   <svg
                     className="w-8 h-8"
@@ -181,7 +181,7 @@ export default function AboutMe() {
                   at cum, consectetur ullam tempora ipsa iste officia sed
                   officiis! Incidunt ea animi officiis.
                 </p>
-                <Link a="#" className="block font-medium text-orange-500 text-center">
+                <Link to="#" className="block font-medium text-orange-500 text-center">
                   Know more
                 </Link>
               </div>

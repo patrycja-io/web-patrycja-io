@@ -23,7 +23,7 @@ function App() {
          <Route path="resources/reactlibraries" element={<ReactLibraires/>}/>
          <Route path="collabs" element={<Collabs/>}/>
          <Route path="aboutme" element={<AboutMe/>}/>
-         <Route path="*" element={<PageNotFound/>}/>
+        
        </Routes>
        <Footer/>
        </BrowserRouter>
