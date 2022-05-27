@@ -15,28 +15,28 @@ export default function Navbar() {
           <div className="flex items-center justify-end flex-1">
             <nav className="hidden  lg:text-black-500 lg:tracking-wide lg:font-bold lg:text-xl lg:space-x-4 lg:flex">
               <Link
-                to="/aboutme"
+                to="aboutme"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
               >
                 About Me
               </Link>
 
               <Link
-                to="/resources"
+                to="resources"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
               >
                 Resources
               </Link>
 
               <Link
-                to="/products"
+                to="products"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
               >
                 Products
               </Link>
 
               <Link
-                to="/collabs"
+                to="collabs"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
               >
                 Collabs

@@ -19,7 +19,7 @@ export default function Create() {
                     Sharing free resources,  building digital products,  and experiences.
                 </h2>
                 <div className="flex items-center justify-center mt-4">
-                    <Link to="#" className="uppercase py-2 my-2 px-4 md:mt-16 bg-transparent rounded-lg dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
+                    <Link to="aboutme" className="uppercase py-2 my-2 px-4 md:mt-16 bg-transparent rounded-lg dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
                         CONNECT WITH ME
                     </Link>
                 </div>
@@ -43,7 +43,7 @@ export default function Create() {
           </p>
 
           <Link
-            to=""
+            to="aboutme"
             className="inline-flex items-center px-5 py-3 mt-8 font-medium text-indigo-600 bg-white rounded-lg hover:opacity-75"
           >
             Come and see
@@ -180,7 +180,7 @@ export default function Create() {
         officiis, odio voluptatibus non soluta! Quo, explicabo aspernatur!
       </p>
 
-      <Link to="" className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" >
+      <Link to="aboutme" className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" >
         Get it now
 
         <svg

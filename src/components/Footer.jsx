@@ -9,7 +9,7 @@ export default function Footer (){
       <div className="flex justify-center space-x-6">
         <Link
           className="text-blue-500 hover:text-opacity-75"
-          to=""
+          to="aboutme"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"
@@ -74,7 +74,7 @@ export default function Footer (){
       >
         <Link
           className="hover:opacity-75"
-          to="https://patrycja.io"
+          to="https://www.patrycja.io"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -82,6 +82,7 @@ export default function Footer (){
         </Link>
 
         <Link
+          to="aboutme"
           className="hover:opacity-75"
           a="user"
           target="_blank"
@@ -92,7 +93,7 @@ export default function Footer (){
 
         <Link
           className="hover:opacity-75"
-          to=""
+          to="aboutme"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -101,7 +102,7 @@ export default function Footer (){
 
         <Link
           className="hover:opacity-75"
-          to=""
+          to="aboutme"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -117,7 +118,7 @@ export default function Footer (){
 
         <Link
           className="block mt-1 text-pink-600 underline decoration-wavy decoration-pink-500 hover:opacity-75"
-          to=""
+          to="aboutme"
           target="_blank"
           rel="noopener noreferrer"
         >

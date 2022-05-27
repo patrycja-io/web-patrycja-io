@@ -12,7 +12,7 @@ export default function AboutMe() {
               <div className="flex justify-center py-12 space-x-6">
                 <Link
                   className="text-pink-500 hover:text-opacity-75"
-                  to=""
+                  to="aboutme"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="instagram"
@@ -29,7 +29,7 @@ export default function AboutMe() {
 
                 <Link
                   className="text-gray-900 hover:text-opacity-75"
-                  to=""
+                  to="aboutme"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -50,7 +50,7 @@ export default function AboutMe() {
 
                 <Link
                   className="text-red-600 hover:text-opacity-75"
-                  to=''
+                  to='aboutme'
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Youtube"
@@ -66,7 +66,7 @@ export default function AboutMe() {
                 </Link>
                 <Link
                   className="text-indigo-600 hover:text-opacity-75"
-                 to=""
+                 to="aboutme"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitch"
@@ -139,7 +139,7 @@ export default function AboutMe() {
                   Make coding fun! Learn with me how to code games in pure
                   Javascript!
                 </p>
-                <Link to="#" className="block font-medium text-center text-orange-500">
+                <Link to="aboutme" className="block font-medium text-center text-orange-500">
                   Know more
                 </Link>
               </div>
@@ -160,7 +160,7 @@ export default function AboutMe() {
                   at cum, consectetur ullam tempora ipsa iste officia sed
                   officiis! Incidunt ea animi officiis.
                 </p>
-                <Link to="#" className="block font-medium text-orange-600 text-center">
+                <Link to="aboutme" className="block font-medium text-orange-600 text-center">
                   Know more
                 </Link>
               </div>
@@ -181,7 +181,7 @@ export default function AboutMe() {
                   at cum, consectetur ullam tempora ipsa iste officia sed
                   officiis! Incidunt ea animi officiis.
                 </p>
-                <Link to="#" className="block font-medium text-orange-500 text-center">
+                <Link to="aboutme" className="block font-medium text-orange-500 text-center">
                   Know more
                 </Link>
               </div>
