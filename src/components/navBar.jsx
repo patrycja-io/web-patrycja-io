@@ -28,12 +28,12 @@ export default function Navbar() {
                 Resources
               </Link>
 
-              <a
-                href="/products"
+              <Link
+                to="/products"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
               >
                 Products
-              </a>
+              </Link>
 
               <Link
                 to="/collabs"

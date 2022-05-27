@@ -19,9 +19,9 @@ export default function Create() {
                     Sharing free resources,  building digital products,  and experiences.
                 </h2>
                 <div className="flex items-center justify-center mt-4">
-                    <a href="#" className="uppercase py-2 my-2 px-4 md:mt-16 bg-transparent rounded-lg dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
+                    <Link to="#" className="uppercase py-2 my-2 px-4 md:mt-16 bg-transparent rounded-lg dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
                         CONNECT WITH ME
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@ export default function Create() {
         officiis, odio voluptatibus non soluta! Quo, explicabo aspernatur!
       </p>
 
-      <Link className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" href="">
+      <Link className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" to="">
         Get it now
 
         <svg

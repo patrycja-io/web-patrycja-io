@@ -181,7 +181,7 @@ export default function AboutMe() {
                   at cum, consectetur ullam tempora ipsa iste officia sed
                   officiis! Incidunt ea animi officiis.
                 </p>
-                <Link href="#" className="block font-medium text-orange-500 text-center">
+                <Link a="#" className="block font-medium text-orange-500 text-center">
                   Know more
                 </Link>
               </div>
