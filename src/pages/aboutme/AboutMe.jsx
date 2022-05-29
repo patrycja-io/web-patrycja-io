@@ -8,7 +8,7 @@ export default function AboutMe() {
         <div className="flex relative z-20 items-center">
           <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
             <div className="flex flex-col">
-              <img src={me} alt="awatar" className="rounded-full w-48 mx-auto" />
+            <input type="image" src={me} alt="awatar" className="rounded-full w-48 mx-auto" />
               <div className="flex justify-center py-12 space-x-6">
                 <Link
                   className="text-pink-500 hover:text-opacity-75"
@@ -143,7 +143,7 @@ export default function AboutMe() {
                   Know more
                 </Link>
               </div>
-              <img
+              <input type="image" 
                 src="https://tailus.io/sources/blocks/end-image/preview/images/graphic.svg"
                 className="w-2/3 ml-auto -mb-12"
                 alt="illustration"
@@ -164,7 +164,7 @@ export default function AboutMe() {
                   Know more
                 </Link>
               </div>
-              <img
+              <input type="image" 
                 src="https://tailus.io/sources/blocks/end-image/preview/images/ui-design.svg"
                 className="w-2/3 ml-auto"
                 alt="illustration"
@@ -185,7 +185,7 @@ export default function AboutMe() {
                   Know more
                 </Link>
               </div>
-              <img
+              <input type="image" 
                 src="https://tailus.io/sources/blocks/end-image/preview/images/ux-design.svg"
                 className="w-2/3 ml-auto "
                 alt="illustration"

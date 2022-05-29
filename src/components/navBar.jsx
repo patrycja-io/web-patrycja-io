@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
           <div className="flex mx-auto">
             <Link to="/" className="flex">
-              <img alt="me" src={me2} className="h-10" />
+            <input type="image" alt="me" src={me2} className="h-10" />
             </Link>
           </div>
 

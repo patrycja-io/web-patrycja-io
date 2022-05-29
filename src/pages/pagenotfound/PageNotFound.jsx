@@ -16,12 +16,12 @@ export default function PageNotFound() {
                 </div>
             </div>
             <div>
-                <img alt="404" src="https://i.ibb.co/G9DC8S0/404-2.png" />
+            <input type="image" alt="404" src="https://i.ibb.co/G9DC8S0/404-2.png" />
             </div>
         </div>
     </div>
     <div>
-        <img alt="404" src="https://i.ibb.co/ck1SGFJ/Group.png" />
+    <input type="image" alt="404" src="https://i.ibb.co/ck1SGFJ/Group.png" />
     </div>
 </div></div>
   )

@@ -11,7 +11,7 @@ export default function Create() {
     <div className="flex relative z-20 items-center">
         <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
             <div className="flex flex-col">
-            <input type="imgage"src={me} className="rounded-full w-28 mx-auto"/>
+            <input type="image" src={me} className="rounded-full w-28 mx-auto"/>
                 <p className="text-3xl my-6 text-center dark:text-white">
                     Hi, I&#x27;m Patrycja 🤘
                 </p>
@@ -62,7 +62,7 @@ export default function Create() {
       </div>
 
       <div className="relative h-64 lg:order-first lg:h-full">
-        <img
+      <input type="image" 
           src={levi}
           alt="Sunset with palm trees"
           className="absolute inset-0 object-cover w-full h-full"
@@ -70,7 +70,7 @@ export default function Create() {
       </div>
 
       <div className="relative h-64 lg:h-full">
-        <img
+      <input type="image" 
           src={keyboard}
           alt="Man in a hat and yellow jumper"
           className="absolute inset-0 object-cover w-full h-full"
@@ -131,7 +131,7 @@ export default function Create() {
         <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
           <div className="row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
             <div className="h-full flex flex-col justify-center space-y-4">
-              <img className="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/second_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
+            <input type="image" className="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/second_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
               <p className="text-gray-600 md:text-xl"> <span className="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span className="font-serif">"</span></p>
               <div>
                   <h6 className="text-lg font-semibold leading-none">Jane Doe</h6>
@@ -141,7 +141,7 @@ export default function Create() {
           </div>
 
           <div className="p-6 border border-gray-100 rounded-xl bg-gray-50 sm:flex sm:space-x-8 sm:p-8">
-            <img className="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/first_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
+          <input type="image" className="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/first_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
             <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
               <p className="text-gray-600"> <span className="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span className="font-serif">"</span></p>
               <div>
@@ -151,7 +151,7 @@ export default function Create() {
             </div>
           </div>
           <div className="p-6 border border-gray-100 rounded-xl bg-gray-50 sm:flex sm:space-x-8 sm:p-8">
-            <img className="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/third_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
+          <input type="image" className="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/third_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
             <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
               <p className="text-gray-600"> <span className="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span className="font-serif">"</span></p>
               <div>
@@ -197,7 +197,7 @@ export default function Create() {
   </div>
 
   <div className="absolute inset-0 w-full h-full mix-blend-multiply">
-    <img
+  <input type="image" 
       src={"https://images.unsplash.com/photo-1599481238505-b8b0537a3f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80"}
       alt="New robot toy"
       className="absolute inset-0 object-cover object-top w-full h-full"
