@@ -11,7 +11,7 @@ export default function Create() {
     <div className="flex relative z-20 items-center">
         <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
             <div className="flex flex-col">
-                <img src={me} className="rounded-full w-28 mx-auto"/>
+            <input type="imgage"src={me} className="rounded-full w-28 mx-auto"/>
                 <p className="text-3xl my-6 text-center dark:text-white">
                     Hi, I&#x27;m Patrycja 🤘
                 </p>

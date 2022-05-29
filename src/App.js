@@ -8,7 +8,7 @@ import ReactLibraires from './pages/resources/ReactLibraires'
 import Footer from './components/Footer'
 import Collabs from './pages/collabs/Collabs'
 import AboutMe from './pages/aboutme/AboutMe'
-import PageNotFound from './pages/pagenotfound/PageNotFound'
+
 
 import './App.css'
 
