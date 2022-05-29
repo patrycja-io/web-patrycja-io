@@ -11,7 +11,7 @@ export default function Create() {
     <div className="flex relative z-20 items-center">
         <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
             <div className="flex flex-col">
-            <input type="image" src={me} className="rounded-full w-28 mx-auto"/>
+            <input type="image"  alt="New robot toy" aria-label="emoji" src={me} className="rounded-full w-28 mx-auto"/>
                 <p className="text-3xl my-6 text-center dark:text-white">
                     Hi, I&#x27;m Patrycja 🤘
                 </p>
@@ -200,6 +200,7 @@ export default function Create() {
   <input type="image" 
       src={"https://images.unsplash.com/photo-1599481238505-b8b0537a3f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80"}
       alt="New robot toy"
+      aria-label=""
       className="absolute inset-0 object-cover object-top w-full h-full"
     />
   </div>
