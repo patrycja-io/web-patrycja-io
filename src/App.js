@@ -5,6 +5,7 @@ import Navbar from './components/navBar'
 import Home from './pages/home/Home'
 import Resources from './pages/resources/Resources'
 import ReactLibraires from './pages/resources/ReactLibraires'
+import TailwindUIs from './pages/resources/TailwindUIs'
 import Footer from './components/Footer'
 import Collabs from './pages/collabs/Collabs'
 import AboutMe from './pages/aboutme/AboutMe'
@@ -21,6 +22,7 @@ function App() {
          <Route path="/" element={<Home/>}/>
          <Route path="resources" element={<Resources/>}/>
          <Route path="resources/reactlibraries" element={<ReactLibraires/>}/>
+         <Route path="resources/tailwinduis" element={<TailwindUIs/>}/>
          <Route path="collabs" element={<Collabs/>}/>
          <Route path="aboutme" element={<AboutMe/>}/>
         
