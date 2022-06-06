@@ -16,7 +16,7 @@ export default function TailwindUIs() {
       </div>
       <ul className="border border-white sm:grid sm:grid-cols-2 lg:grid-cols-1">
         <li className="p-8 border border-white">
-          <a href='https://www.gustui.com/' target="_blank" rel="noreferrer" >
+          <a href='https://www.gustui.com/' target="_blank" rel="noopener noreferrer" >
             <p className="text-3xl font-extrabold text-sky-600">Gust UI</p></a>
           <details className="p-6 group" open>
             <summary className="flex items-center justify-between cursor-pointer">
@@ -30,7 +30,7 @@ export default function TailwindUIs() {
         </li>
   
         <li className="p-8 border border-white">
-        <a href='https://www.tailwind-kit.com/' target="_blank" rel="noreferrer" >
+        <a href='https://www.tailwind-kit.com/' target="_blank" rel="noopener noreferrer" >
             <p className="text-3xl font-extrabold text-sky-600">Tailwind KIT</p></a>
           <details className="p-6 group" open>
             <summary className="flex items-center justify-between cursor-pointer">
@@ -44,7 +44,7 @@ export default function TailwindUIs() {
         </li>
   
         <li className="p-8 border border-white">
-        <a href='https://lofiui.co/' target="_blank" rel="noreferrer" >
+        <a href='https://lofiui.co/' target="_blank" rel="noopener noreferrer" >
             <p className="text-3xl font-extrabold text-sky-600">Lofi UI</p></a>
           <details className="p-6 group" open>
             <summary className="flex items-center justify-between cursor-pointer">
@@ -58,7 +58,7 @@ export default function TailwindUIs() {
         </li>
   
         <li className="p-8 border border-white">
-        <a href='https://merakiui.com/' target="_blank" rel="noreferrer" >
+        <a href='https://merakiui.com/' target="_blank" rel="noopener noreferrer" >
             <p className="text-3xl font-extrabold text-sky-600">Meraki UI</p></a>
           <details className="p-6 group" open>
             <summary className="flex items-center justify-between cursor-pointer">
@@ -71,7 +71,7 @@ export default function TailwindUIs() {
         </li>
   
         <li className="p-8 border border-white">
-        <a href='https://windstrap.netlify.app/' target="_blank" rel="noreferrer" >
+        <a href='https://windstrap.netlify.app/' target="_blank" rel="noopener noreferrer" >
             <p className="text-3xl font-extrabold text-sky-600">Windstrap</p></a>
           <details className="p-6 group" open>
             <summary className="flex items-center justify-between cursor-pointer">
@@ -84,7 +84,7 @@ export default function TailwindUIs() {
         </li>
   
         <li className="p-8 border border-white">
-        <a href='https://sailui.github.io/ui/' target="_blank" rel="noreferrer" >
+        <a href='https://sailui.github.io/ui/' target="_blank" rel="noopener noreferrer" >
             <p className="text-3xl font-extrabold text-sky-600">Sail UI</p></a>
           <details className="p-6 group" open>
             <summary className="flex items-center justify-between cursor-pointer">
