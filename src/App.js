@@ -1,4 +1,6 @@
 import {BrowserRouter, Route, Routes } from 'react-router-dom'
+import React from 'react'
+
 
 //page components
 import Navbar from './components/navBar'
@@ -25,7 +27,6 @@ function App() {
          <Route path="resources/tailwinduis" element={<TailwindUIs/>}/>
          <Route path="collabs" element={<Collabs/>}/>
          <Route path="aboutme" element={<AboutMe/>}/>
-        
        </Routes>
        <Footer/>
        </BrowserRouter>

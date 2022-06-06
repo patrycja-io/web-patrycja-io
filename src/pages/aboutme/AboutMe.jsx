@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { Link } from "react-router-dom";
 import me from "../../assets/me.png";
 
@@ -99,10 +101,10 @@ export default function AboutMe() {
 
 
              
-              <p className="text-3xl my-6 text-center dark:text-white">
+              <span className="text-3xl my-6 text-center dark:text-white" role="img" aria-label="" aria-labelledby=''><p >
                 Hi, I&#x27;m Patrycja 🤘
               </p>
-             
+             </span>
             
           
               <h2 className="max-w-3xl text-5xl md:text-2xl  mx-auto dark:text-white text-gray-800 text-center py-2">
